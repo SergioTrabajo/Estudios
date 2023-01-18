@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.titulo{
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#quienes-somos{
+    background-color: lightskyblue
+}
+#quienes-somos img{
+    height: 80%;
+    float: left;
+    margin-right: 10px;
+}
+#caja-servicios{
+    /* border: 2px solid darkcyan; */
+    float: left;
+    width: 33%;
+    height: 90%;
+    text-align: center;
+}
+#caja-servicios h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkorange;
+    text-shadow: 3px 3px 5px black;
+}
+#caja-servicios img{
+    height: 60%;
+    margin-top: 10px;
+    box-shadow:3px 3px 5px black ;
+}
+#donde-estamos{
+    background-color: darkorange;
+    font-style: italic;
+
+}
+#donde-estamos iframe{
+    float: left;
+    margin-right: 20px;
+    
+}
+header{
+    background-image:url(https://d3puay5pkxu9s4.cloudfront.net/curso/4305/800_imagen.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    padding-top: 100px ;
+}
+header h1{
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header h2{
+    color: darkorange;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+nav{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 3px 5px 5px black;
+}
+nav a {
+    text-decoration: none;
+    font-style: italic;
+    color: darkcyan;
+}
+nav a:hover{
+    font-weight: bold;
+    color: darkorange;
+    
+}
+
+section{
+    height: 300px;
+    padding: 20px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
