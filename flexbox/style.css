@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+section{
+    background-color: lightblue;
+    display: flex;
+    border: 2px solid blue;
+    justify-content:center;
+    height: 300px;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+article{
+    border: 1px solid green;
+    background-color: pink;
+    padding: 15px;
+    height: 100px;
+    width: 40%;
+}
+header{
+    height: 200px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
