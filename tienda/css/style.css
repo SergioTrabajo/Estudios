@@ -21,7 +21,7 @@ nav a:hover{
     font-weight: bold;
 }
 header{
-    background-image: url("images/informatica.jpg");
+    background-image: url("../images/informatica.jpg");
     background-size: cover;
     height: 300px;
     display: flex;
