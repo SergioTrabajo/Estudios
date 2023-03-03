@@ -1,0 +1,67 @@
+body{
+    height: 100vh;
+    background-color: blue;
+}
+*{
+    margin: 0;   
+    box-sizing: border-box;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+#contenedor-planes{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid white;
+    height: 80%;
+    margin: 10px;
+}
+.plan{
+    background-color: white;
+    border-radius: 5%;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.plan p{
+    padding: 10px;
+}
+.titulo-plan{
+    color: aqua;
+    font-weight: bold;
+    font-size: 25px;
+}
+.plan-precio{
+    font-size: 50px;
+    font-weight: 200px;
+    font-style: italic;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.plan-boton{
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+    border: 2px solid rebeccapurple;
+    padding: 8px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgba(0, 255, 0, 0.5);
+    box-shadow: 2px 2px 2px black;
+}
+.plan-boton :hover{
+    background-color: rgba(0, 255. 0, 0.8);
+}
+@media(max-width:600px){
+    body{
+        background-color: greenyellow;
+    }
+    #contenedor-planes{
+        display:block;
+        height: auto;
+    }
+}
